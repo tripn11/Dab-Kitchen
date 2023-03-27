@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Rubik:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="icon" href="./media/images/logo.png">
+    <title>Dab Kitchen</title>
+</head>
+<body>
+    <header>
+        <div class="brand">
+            <img id="header-logo" src="./images/logo.png" alt="The company logo">
+            <span>Dab Kitchen</span>
+        </div>
+
+        <div class="nav-icon" id="menu"><ion-icon name="menu-outline"></ion-icon></div>
+        <div class="nav-icon" id="close"><ion-icon name="close-outline"></ion-icon></div>
+
+        <nav>
+            <a class="scroll" href="#how-it-works">How it Works </a>
+            <a class="scroll" href="#meals">Meals </a>
+            <a class="scroll" href="#order">Subscribe </a>
+        </nav> 
+        
+        <div id="header-content">
+            <p>A healthy meal delivered to your door</p>
+            <div id="emphasis">
+                <p>Every</p>
+                <p>Single</p>
+                <p>Day</p>
+            </div>
+            <div id="header-content-buttons">
+                <a class="scroll" href="#meals"><button>Start Eating</button></a>
+                <a class="scroll" href="#how-it-works"><button>Learn more</button></a>
+            </div>
+        </div>
+
+    </header>
+
+    <section id="how-it-works">
+        <h2>How it works</h2>
+
+        <p id="how-it-works_description">With the hussle and bussle of the day, there is barely time for cooking.
+            Let's treat you to sumptuous daily meals in just 2 simple steps
+        </p>
+
+        <div class="steps-container">
+            <div>
+                <p class="steps">1</p>
+                <h3>What do you like?</h3>
+                <p>Don't get stressed thinking of what to eat each day.
+                    Select your favorite meals <span><a class="scroll" href="#meals">here</a></span>
+                </p>
+            </div>
+            <picture>
+                <source media="(max-width: 480px)" srcset="./images/iphone-1.png">
+                <source media="(max-width: 768px)" srcset="./images/tablet-1.png">
+                <img src="./images/laptop-1.png" alt="subscription on a laptop or mobile phone">
+            </picture>
+        </div>
+       
+        <div class="steps-container">
+            <div>
+                <p class="steps">2</p>
+                <h3>Choose convinient Time and Place</h3>
+                <p>Foodie or not, Thinees kitchen will prepare your meal and deliver on time to your preferred location</p>
+            </div>
+            <picture>
+                <source media="(max-width: 480px)" srcset="./media/images/iphone-2.png">
+                <source media="(max-width: 768px)" srcset="./media/images/tablet-2.png">
+                <img src="./images/laptop-2.png" alt="subscription on a laptop or mobile phone">
+            </picture>
+        </div>           
+    </section>
+
+    <section id="meals">
+        <h2>Your Favorite Meals</h2>
+        <p>Click on your favourite meals to select them</p>
+        <div id="gallery">
+            <div class="flip-box">
+                <div class="meal-card">
+                    <div class ="front-side">
+                        <div>
+                            <img src="./images/Abacha.jpg"  alt="Abacha">
+                        </div>
+                    </div>
+                    <div class ="back-side">
+                        <div class="back-side-complete">
+                            <img src="./images/Abacha.jpg"  alt="Abacha">
+                            <div class="back-side-details">
+                                <p>Abacha</p>
+                                <p>&#8358; 5000</p>
+                                <button>Select</button>
+                            </div> 
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flip-box">
+                <div class="meal-card">
+                    <div class = "front-side">
+                        <div>
+                            <img src="./images/Macaroni.jpg" alt="Macaroni">
+                        </div>  
+                    </div>
+                    <div class = "back-side">
+                        <div class="back-side-complete">
+                            <img src="./images/Macaroni.jpg" alt="Macaroni">
+                            <div class="back-side-details">
+                                <p>Macarani</p>
+                                <p>&#8358; 3000</p>
+                                <button>Select</button>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flip-box">
+                <div class="meal-card">
+                    <div class = "front-side">
+                        <div>
+                            <img src="./images/Melon Soup.jpg" alt="Melon Soup">
+                        </div>
+                    </div>
+                    <div class = "back-side">
+                        <div class="back-side-complete">
+                            <img src="./images/Melon Soup.jpg" alt="Melon Soup">
+                            <div class="back-side-details">
+                                <p>Melon Soup</p>
+                                <p>&#8358; 8000</p>
+                                <button>Select</button>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+
+            <div id="show" class="show-meals">Show more Meals <span>&#8595;</span></div>
+
+            <div class="flip-box">
+                <div class="meal-card">
+                    <div class = "front-side">
+                        <div>
+                            <img src="./images/Noodles.jpg" alt="Noodles">
+                        </div>
+                    </div>
+                    <div class = "back-side">
+                        <div class="back-side-complete">
+                            <img src="./images/Noodles.jpg" alt="Noodles">
+                            <div class="back-side-details">
+                                <p>Noodles</p>
+                                <p>&#8358; 2000</p>
+                                <button>Select</button>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-box">
+                <div class="meal-card">
+                    <div class = "front-side">
+                        <div>
+                            <img src="./images/Okra soup.jpg" alt="Okra Soup">
+                        </div>
+                    </div>
+                    <div class = "back-side">
+                        <div class="back-side-complete">
+                            <img src="./images/Okra soup.jpg" alt="Okra Soup">
+                            <div class="back-side-details">
+                                <p>Okra Soup</p>
+                                <p>&#8358; 10000</p>
+                                <button>Select</button>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flip-box">
+                <div class="meal-card">
+                    <div class = "front-side">
+                        <div>
+                            <img src="./images/Plantain and Egg sauce.jpg" alt="Plantain">
+                        </div>
+                    </div>
+                    <div class = "back-side">
+                        <div class="back-side-complete">
+                            <img src="./images/Plantain and Egg sauce.jpg" alt="Plantain">
+                            <div class="back-side-details">
+                                <p>Plantain</p>
+                                <p>&#8358; 5000</p>
+                                <button>Select</button>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-box">
+                <div class="meal-card">
+                    <div class = "front-side">
+                        <div>
+                            <img src="./images/Plantain Pizza.jpg" alt="Plantain Pizza">
+                        </div>
+                    </div>
+                    <div class = "back-side">
+                        <div class="back-side-complete">
+                            <img src="./images/Plantain Pizza.jpg" alt="Plantain Pizza">
+                            <div class="back-side-details">
+                                <p>Plantain Pizza</p>
+                                <p>&#8358; 15000</p>
+                                <button>Select</button>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-box">
+                <div class="meal-card">
+                    <div class = "front-side">
+                        <div>
+                            <img src="./images/Potato and vegetable.jpg" alt="Potato">
+                        </div>
+                    </div>
+                    <div class = "back-side">
+                        <div class="back-side-complete">
+                            <img src="./images/Potato and vegetable.jpg" alt="Potato">
+                            <div class="back-side-details">
+                                <p>Potato</p>
+                                <p>&#8358; 5000</p>
+                                <button>Select</button>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-box">
+                <div class="meal-card">
+                    <div class = "front-side">
+                        <div>
+                            <img src="./images/Rice and Sauce.jpg" alt="Rice and Sauce">
+                        </div>
+                    </div>
+                    <div class = "back-side">
+                        <div class="back-side-complete">
+                            <img src="./images/Rice and Sauce.jpg" alt="Rice and Sauce">
+                            <div class="back-side-details">
+                                <p>Rice and Sauce</p>
+                                <p>&#8358; 15000</p>
+                                <button>Select</button>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-box">
+                <div class="meal-card">
+                    <div class = "front-side">
+                        <div>
+                            <img src="./images/Rice and Vegetable.jpg" alt="Rice">
+                        </div>
+                    </div>
+                    <div class = "back-side">
+                        <div class="back-side-complete">
+                            <img src="./images/Rice and Vegetable.jpg" alt="Rice">
+                            <div class="back-side-details">
+                                <p>Rice and Vegetable</p>
+                                <p>&#8358; 5000</p>
+                                <button>Select</button>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-box">
+                <div class="meal-card">
+                    <div class = "front-side">
+                        <div>
+                            <img src="./images/Spaghetti and Salad.jpg" alt="Spaghetti">
+                        </div>
+                    </div>
+                    <div class = "back-side">
+                        <div class="back-side-complete">
+                            <img src="./images/Spaghetti and Salad.jpg" alt="Spaghetti">
+                            <div class="back-side-details">
+                                <p>Spaghetti</p>
+                                <p>&#8358; 6000</p>
+                                <button>Select</button>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-box">
+                <div class="meal-card">
+                    <div class = "front-side">
+                        <div>
+                            <img src="./images/Vegetable soup.jpg" alt="Vegetable Soup">
+                        </div>
+                    </div>
+                    <div class = "back-side">
+                        <div class="back-side-complete">
+                            <img src="./images/Vegetable soup.jpg" alt="Vegetable Soup">
+                            <div class="back-side-details">
+                                <p>Vegetable Soup</p>
+                                <p>&#8358; 15000</p>
+                                <button>Select</button>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+            <div id="hide" class="show-meals">Hide meals</div>
+        </div>
+    </section>
+
+    <section id="order">
+        <h2>Get your first Meal</h2>
+         <form onsubmit = payment(event)> <!--event here is a crucial keyword -->
+            <div class="form-element">
+                <label for="name">Name:</label>
+                <input type="text" name="name" required>
+            </div>
+            <div class="form-element">
+                <label for="location">Location:</label>
+                <input type="text" name="location" required>
+            </div>
+            <div class="form-element">
+                <label for="time">Preferred Time</label>
+                <input type="time">
+            </div>
+            <button disabled>Pay <span></span> Now</button>
+        </form>
+    </section>
+
+    <footer>
+        <div id="footer-logo">
+            <div>
+                <img src="./images/logo.png" alt="company logo">
+                <span>Dab Kitchen</span>
+            </div>
+            <a href="https://web.facebook.com/noble.emeka" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="https://api.whatsapp.com/send?phone=%2B2349038031775&data=AWCjl_27pRnNs0Jddcxc3zMmVMLB0Bct1mpahmPRrkgFUYdBpXeH6aRBgYxBXRmcZ54d6SPdVc-U2wXfJNYWmryDxJRYquPDIQ0j75cc7Y1gsI79dT-swt3a8x2pVviQg8R414kL81ZRMZ6t5-CuwBf5UvZ2eXyeYfJNTBe2L-zvoFwSRuG6Kby1StUhPEsi9TmdSCOTmtI2Dl2t74HJTVE68eVqe9pUqNBL3UIUAYkUaVk-rlY86UqDLgt8NJ9aPyJfvjQQZgQiz-MB8-i2Gw&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR0kj3SNtr338f1-sbKAsrU7OorSXj7fR-DdLbNnBp7p8VT7YlAiVh5qbQ8" target="_blank"><ion-icon name="logo-whatsapp" target="_blank"></ion-icon></a>
+            <a href="https://www.instagram.com/dab_kitchen/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://www.twitter.com/noble_emy" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+            <p></p>
+        </div>
+        
+        <div id="footer-contact">
+            <p>Contact us</p>
+            <p>1 Nwaniba Road, Uyo, Akwa Ibom</p>
+            <p>noblenwala.nn@gmail.com</p>
+            <p>+2349038031775</p>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
